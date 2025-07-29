@@ -1,7 +1,8 @@
 *{ margin: 0;
    padding: 0;
    box-sizing: border-box;
-   
+   overflow-x: hidden;
+
    
    background-color: beige; 
   }
@@ -84,4 +85,18 @@ img{
     .card{
       border: 2PX SOLID black;
     }
+    .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
+body {
+  overflow: hidden;
+}
   
